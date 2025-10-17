@@ -1,19 +1,41 @@
-dnspython
-ffmpeg-python
-hachoir
-Pillow
-psutil
-pymongo
-Pyrogram
+# Core Telegram Bot
+pyrogram
+TgCrypto
+
+# Enhanced Bot Framework
 pyromod
 python-dotenv
-requests
-TgCrypto
-certifi
-urllib3
-idna
-charset-normalizer
-aiofiles
-aiohttp
+
+# Image & Media Processing
+Pillow
+hachoir
+
+# Video Processing (Critical Fix)
+ffmpeg-python
+
+# System Monitoring
+psutil
+
+# Database Support
+pymongo
+dnspython
 motor
+
+# HTTP Client & File Operations
+aiohttp
+aiofiles
+requests
+
+# Enhanced Download & Upload Support
 tenacity
+urllib3
+certifi
+charset-normalizer
+idna
+
+# Performance Enhancement
+ujson
+
+# Additional for DDL & GoFile
+httpx
+tqdm>=4.65.0
