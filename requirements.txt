@@ -38,4 +38,4 @@ ujson
 
 # Additional for DDL & GoFile
 httpx
-tqdm>=4.65.0
+tqdm
